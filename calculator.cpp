@@ -284,8 +284,8 @@ int main()
             calc.logarithm();
             break;
         case 9:
-        calc.squareRoot();
-        break;
+           calc.squareRoot();
+           break;
 
         default:
             cout << "Invalid choice!" << endl;
