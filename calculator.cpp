@@ -205,6 +205,21 @@ public:
                 cout << "Invalid choice!" << endl;
         }
     }
+    void squareRoot()
+    {
+        double number;
+
+        cout << "Enter number: ";
+        cin >> number;
+
+        if (number < 0)
+        {
+            cout << "Error: Square root of a negative number is not real!" << endl;
+            return;
+        }
+
+        cout << "Result: " << sqrt(number) << endl;
+    }
 };
 
 
@@ -225,6 +240,7 @@ int main()
     cout << "6. Power\n";
     cout << "7. Trigonometry\n";
     cout << "8. Logarithm\n";
+    cout << "9. Square Root\n";
     cout << "Enter your choice: ";
     cin >> choice;
 
