@@ -244,7 +244,7 @@ int main()
     cout << "Enter your choice: ";
     cin >> choice;
 
-        if (choice == 9)
+        if (choice >= 10)
         {
             cout << "Exiting the calculator. Goodbye!" << endl;
             break;
@@ -283,6 +283,9 @@ int main()
         case 8:
             calc.logarithm();
             break;
+        case 9:
+        calc.squareRoot();
+        break;
 
         default:
             cout << "Invalid choice!" << endl;
